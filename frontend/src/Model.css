@@ -1,0 +1,133 @@
+/* Kontainer utama */
+.model-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding-left: 40px;
+  /* background-color: #e8e8e6; */
+  border-radius: 10px;
+}
+
+
+
+/* Daftar model di kiri */
+.model-list {
+  width: 30%;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.model-item {
+  font-size: 30px;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: #023020;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.model-item:hover {
+  color: #023020;
+  font-weight: bold;
+}
+
+/* Kontainer kanan, ukurannya tetap */
+.model-display {
+  width: 65%;
+  height: 600px; /* Pastikan tinggi tetap */
+  background-color: #d9d9d9;
+  padding: 20px;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+/* Gambar default */
+.model-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: 0px 0 0px 0;
+}
+
+/* Pop-up teks dengan ukuran tetap */
+.model-popup {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 20px 0 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Judul besar */
+.popup-title {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold;
+  color: #023020;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+/* Deskripsi */
+.popup-text {
+  font-family: Montserrat;
+  margin-bottom: 40px;
+  font-size: 26px;
+  color: #023020;
+  margin-top: 10px;
+}
+
+/* Kelebihan & kekurangan */
+.popup-text2 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #023020;
+}
+
+
+.custom-button {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  background-color: #004225;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+}
+
+.sample-img-new {
+  width: 20%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+

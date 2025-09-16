@@ -1,0 +1,100 @@
+/* Sidebar container */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100vh;
+  background-color: #023020 !important;
+  color: #e8e8e6;
+  padding-top: 20px;
+}
+
+html,
+body,
+#root {
+  /* height: 100%;
+  margin: 0;
+  padding: 0; */
+  background-color: #e8e8e6; /* Sama seperti .login-wrapper */
+}
+
+/* Ketika sidebar tertutup */
+.sidebar.closed {
+  width: 50px;
+  padding: 20px 10px;
+  background-color: #023020 !important;
+}
+
+/* Tombol toggle tetap tampil */
+.sidebar .toggle-btn {
+  background: #023020;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 0 10px 0px; /* padding kiri 15px sama dengan item nav */
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #023020 !important;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #023020 !important;
+}
+
+.sidebar-menu li {
+  padding: 10px 0;
+}
+
+.sidebar-menu li a {
+  color: #e8e8e6;
+  text-decoration: none;
+}
+
+/* Navigasi list */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+}
+
+.sidebar ul li a {
+  color: #e8e8e6;
+  text-decoration: none;
+}
+
+/* Sembunyikan isi sidebar saat tertutup, kecuali toggle dan logout */
+.sidebar.closed nav {
+  display: none;
+}
+
+/* Tombol Logout sticky di bawah */
+.logout-section {
+  margin-top: auto;
+  padding: 10px 0 0 0; /* hilangkan text-align center */
+}
+
+.logout-btn {
+  margin-top: 450px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 100%;
+  text-align: center;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}

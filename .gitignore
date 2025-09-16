@@ -1,0 +1,56 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/
+*.py[cod]
+
+# Python virtual environment
+backend/myvenv/
+venv/
+__pycache__/
+*.pyc
+
+
+# Environment / virtual environment
+backend/myvenv/
+myvenv/
+venv/
+env/
+.venv/
+
+ Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Dataset / model besar
+data/
+*.h5
+*.pb
+*.pt
+*.pth
+*.tflite
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+runs/
+output/
+model/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Secrets / credentials
+*.env
+
+# Node / React
+node_modules/
+build/
+dist/
+.env*

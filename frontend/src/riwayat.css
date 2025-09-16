@@ -1,0 +1,74 @@
+.riwayat-wrapper {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .image-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .image-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .image-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .detected-info {
+    margin-top: 10px;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .popup img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+  }
+  
+  .popup-scroll {
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .close-btn {
+    background: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

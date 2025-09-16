@@ -1,0 +1,57 @@
+.upload-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.unggah-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #e8e8e6;
+  text-align: center;
+  position: relative;
+
+  margin-left: 240px; /* ⬅️ Tambahkan ini */
+}
+
+
+/* Custom styling for file input */
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
+
+/* Hide default file input */
+.custom-file-upload input {
+  display: none;
+}
+
+/* Upload button styling */
+.upload-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+  background-color: #218838;
+}

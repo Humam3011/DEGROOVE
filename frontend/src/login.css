@@ -1,0 +1,60 @@
+/* Global reset */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6; /* Tailwind gray-100 */
+  font-family: Arial, sans-serif;
+}
+
+/* Wrapper utama login */
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;        /* Susun vertikal: logo di atas box */
+  justify-content: center;       /* Vertikal center */
+  align-items: center;           /* Horizontal center */
+  background-color: #f3f4f6;
+}
+
+/* Logo */
+.login-logo {
+  width: 300px;
+  margin-bottom: 20px;
+  margin-right: 200px;
+}
+
+/* Kotak login */
+.login-box {
+  background-color: #e5e7eb;     /* Tailwind gray-200 */
+  border-radius: 24px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  margin-right: 200px;
+}
+
+/* Judul */
+.login-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #065f46; /* Tailwind green-900 */
+  margin-bottom: 15px;
+}
+
+/* Deskripsi */
+.login-description {
+  font-size: 15px;
+  color: #065f46;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+/* Tombol login */
+.google-login-button {
+  display: flex;
+  justify-content: center;
+}

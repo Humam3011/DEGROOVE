@@ -1,0 +1,101 @@
+.unggah-wrapper {
+  padding: 60px 20px;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  transition: margin-left 0.3s ease;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: white; /* Sama seperti .login-wrapper */
+}
+
+.unggah-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.unggah-sample {
+  width: 200px;
+  text-align: left;
+  margin-right: 100px;
+}
+
+.sample-text {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1a3d2f;
+  font-size: 1rem;
+}
+
+.sample-images {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sample-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.unggah-box {
+  background: #e8e8e6;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  max-width: 90%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.unggah-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #023020;
+  margin-bottom: 10px;
+}
+
+.unggah-description {
+  font-size: 1rem;
+  color: #023020;
+  max-width: 500px;
+  margin: 0 auto 30px;
+}
+
+/* Sidebar-aware offset */
+.with-sidebar {
+  margin-left: 250px;
+}
+.without-sidebar {
+  margin-left: 0;
+}
+
+/* Responsive fix */
+@media screen and (max-width: 768px) {
+  .unggah-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .unggah-sample {
+    width: 90%;
+  }
+
+  .unggah-box {
+    width: 90%;
+  }
+}

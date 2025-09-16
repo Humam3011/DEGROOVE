@@ -1,0 +1,37 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment / virtual environment
+myvenv/
+venv/
+env/
+.venv/
+
+# Dataset / model besar
+data/
+*.h5
+*.pb
+*.pt
+*.pth
+*.tflite
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+runs/
+output/
+model/
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Secrets / credentials
+*.env

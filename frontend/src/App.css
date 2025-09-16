@@ -1,0 +1,187 @@
+.navbar-nav {
+  display: flex;
+  position: relative;
+  width: 400px; 
+  justify-content: space-between;
+  background-color: #e8e8e6;
+  font-family: Montserrat;
+  color: #023020;
+  font-weight: bold;
+}
+
+.nav-link {
+  position: relative;
+  padding: 10px 15px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar {
+  background-color: #e8e8e6;
+}
+
+.nav-link.active {
+  color: #023020; 
+}
+
+.nav-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px; 
+  height: 3px;
+  background-color: #023020; 
+  transition: left 0.3s ease-in-out;
+}
+
+.text-custom1 {
+  font-family: Montserrat;
+  font-weight: 800;
+  color: #023020;
+  font-size: 50px;
+}
+
+.text-muted1 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 28px;
+  max-width: 1000px; 
+  word-wrap: break-word; 
+  line-height: 1.6; 
+  margin-top: 40px;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 50px; 
+}
+
+html,
+body {
+  overflow-y: scroll; 
+  scrollbar-width: none; 
+  background-color: #e8e8e6;
+}
+
+body::-webkit-scrollbar {
+  display: none; 
+}
+
+
+.navbar {
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.text-custom2 {
+  font-family: Montserrat;
+  font-weight: 800;
+  color: #023020;
+  font-size: 50px;
+  word-wrap: break-word;
+  max-width: 800px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.image-caption {
+  font-family: Montserrat;
+  font-size: 23px; 
+  color: #023020; 
+  margin-top: 10px; 
+  text-align: center; 
+}
+
+.text-custom3 {
+  font-family: Montserrat;
+  font-weight: 800;
+  color: #023020;
+  font-size: 50px;
+  word-wrap: break-word;
+  max-width: 1200px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.text-muted2 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 28px;
+  word-wrap: break-word; 
+  line-height: 1.6; 
+  margin-top: 40px;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh; 
+  margin: 0;
+  padding: 0;
+  margin-top: 00px;
+}
+
+.custom-button-bottom {
+  background-color: #023020;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #023020; 
+}
+
+.app-container {
+  display: flex;
+}
+
+.app-container .content {
+  flex: 1;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+
+
+.sidebar {
+  width: 200px;
+  background: #023020 !important;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  height: 100vh;
+  transition: width 0.3s ease-in-out;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+}
+
+
+.sidebar.closed {
+  width: 50px;
+  padding: 20px 10px;
+}
+
+
+.hidden {
+  display: none !important;
+}
+
+
+.content {
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.content.with-sidebar {
+  margin-left: 220px;
+}
+
+
+.content.without-sidebar {
+  margin-left: 0;
+}
